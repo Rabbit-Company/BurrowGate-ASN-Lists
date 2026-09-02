@@ -1,0 +1,12 @@
+{
+	"name": "burrowgate-asn-lists",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"generate:lists": "node scripts/generate-lists.mjs",
+		"validate": "node tests/validate.mjs"
+	},
+	"devDependencies": {
+		"maxmind": "^5.0.7"
+	}
+}

@@ -1,0 +1,41 @@
+# Hand-reviewed category overrides, keyed by ASN (one "<ASN> <category-id>" per row).
+# This is the durable seed for scripts/generate-lists.mjs: loaded on every run and
+# takes priority over the keyword rules, so these classifications survive a full
+# rebuild against an updated mmdb.
+#
+# Reserve this file for ASNs the keyword rules genuinely cannot get right - most
+# often a VPN or proxy service operating under a shell/holding company name with no
+# lexical hint (e.g. "Proton AG", "PacketHub S.A."). If a new rule in
+# scripts/generate-lists.mjs would classify an ASN correctly on its own, prefer that
+# over adding it here - rules apply uniformly to the whole database and to ASNs
+# that don't exist yet, an override only ever fixes one ASN at a time.
+#
+18747 vpn
+19148 vpn
+20448 vpn
+30094 vpn
+39287 vpn
+39405 vpn
+39832 vpn
+42201 vpn
+42675 vpn
+44493 vpn
+45748 vpn
+49282 vpn
+50525 vpn
+62371 vpn
+136787 vpn
+140952 vpn
+197854 vpn
+198605 vpn
+199218 vpn
+199917 vpn
+202425 vpn
+205016 vpn
+206264 vpn
+208172 vpn
+208312 vpn
+209103 vpn
+209854 vpn
+394711 vpn
+396073 vpn
